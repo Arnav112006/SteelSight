@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Model weights & large outputs
+results/*.keras
+results/*.h5
+results/base_path.txt
+
+# Dataset (too large for git)
+data/
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
